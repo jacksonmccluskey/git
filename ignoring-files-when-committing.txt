@@ -1,0 +1,6 @@
+touch .gitignore
+
+echo "filename.ext" >> .gitignore
+
+echo "*.log" > .gitignore
+# -> to ignore all files with .log extension
