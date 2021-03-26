@@ -1,0 +1,32 @@
+$ git branch myBranch
+# -> creates the branch myBranch
+
+OR
+
+$ git checkout -b myBranch 
+# -> make and switch to the branch myBranch
+
+# -> do the work in your branch
+# -> then
+
+$ git checkout master ; 
+# -> to switch back to master branch
+
+# -> now
+# -> merge contents with your myBranch by
+
+$ git merge myBranch 
+# -> writing in master branch
+
+# -> this merger makes a new commit
+
+# -> another way
+
+$ git rebase myBranch
+# -> this merges the branch with master in a serial fashion
+
+# -> now
+
+$ git push origin master
+# contributing to open source by fork a project and do some work (add new features) in your branch and then do a pull request on Github
+
