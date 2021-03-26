@@ -18,7 +18,7 @@ Ultimate Guide to Git &amp; GitHub
 
 # Basic Commands
 * **$ git init** // initialize local git repository
-* **$ git add <**file**> // add file(s) to index
+* **$ git add *file*** // add file(s) to index
 * **$ git status** // check status of working tree
 * **$ git commmit** // commit changes in index
 * **$ git push** // push to remote repository
