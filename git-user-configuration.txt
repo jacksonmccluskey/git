@@ -1,5 +1,5 @@
-git --version 
+$ git --version 
 # -> (to check git version)
 
-git config --global user.name "your name here"
-git config --global user.email "your email here"
+$ git config --global user.name "your name here"
+$ git config --global user.email "your email here"
