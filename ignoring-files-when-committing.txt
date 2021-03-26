@@ -1,6 +1,9 @@
 touch .gitignore
+# -> in many cases, the project creates a lot of log and other irrelevant files which are to be ignored.So to ignore those files, we have to put their names in“.gitignore” file.
 
 echo "filename.ext" >> .gitignore
 
 echo "*.log" > .gitignore
 # -> to ignore all files with .log extension
+
+# -> now the filenames written in the .gitignore file would be ignored while pushing a new commit.
