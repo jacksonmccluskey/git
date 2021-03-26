@@ -1,5 +1,5 @@
 # Git
-Ultimate Guide to Git &amp; GitHub
+Ultimate Guide to Git
 
 # What is Git?
 **Version Control System (VCS)** for tracking changes in computer files
