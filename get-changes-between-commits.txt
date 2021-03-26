@@ -1,0 +1,4 @@
+git diff
+
+# -> ‘git diff’ command compares staging area with the working directory and tells us the changes made
+# -> it compares the earlier information as well as the current modified information
