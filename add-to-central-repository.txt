@@ -4,20 +4,20 @@ $ git add -A
 $ git add .
 # -> to add all files only in the current directory
 
-git commit -a -m "message for commit"
+$ git commit -a -m "message for commit"
 # -a: commit all files and for files that have been staged earlier need not to be git add once more
 # -a option does that automatically
 
-git push origin master 
+$ git push origin master 
 # -> pushes your files to github master branch
 
-git push origin anyOtherBranch
+$ git push origin anyOtherBranch
 # -> pushes any other branch to github
 
-git log
+$ git log
 # -> to see all your commits
 
-git checkout commitObject(first 8 bits) file.txt
-# ->  revert back to this previous commit for file file.txt
+$ git checkout commitObject(first 8 bits) file.txt
+# -> revert back to this previous commit for file file.txt
 # -> commitObject can be seen via git log
 # -> HEAD -> pointer to our latest commit
