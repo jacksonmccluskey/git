@@ -16,3 +16,8 @@ git push origin anyOtherBranch
 
 git log
 # -> to see all your commits
+
+git checkout commitObject(first 8 bits) file.txt
+# ->  revert back to this previous commit for file file.txt
+# -> commitObject can be seen via git log
+# -> HEAD -> pointer to our latest commit
