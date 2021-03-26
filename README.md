@@ -20,7 +20,7 @@ Ultimate Guide to Git &amp; GitHub
 * **$ git init** // initialize local git repository
 * **$ git add *file*** // add file(s) to index
 * **$ git status** // check status of working tree
-* **$ git commmit** // commit changes in index
+* **$ git commit** // commit changes in index
 * **$ git push** // push to remote repository
 
 # Installing Git
