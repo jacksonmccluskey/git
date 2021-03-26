@@ -1,0 +1,6 @@
+git remote add origin http_url/ssh_url 
+
+connect to central repo to push/pull
+pull means transferring the changes on the central repository to your local repository. push is the vice versa of pull.
+
+git pull origin master
